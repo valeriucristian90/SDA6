@@ -15,10 +15,9 @@ public class Klargestelements {
         }
 
         int max = getMaxValue(x);
-//        System.out.println(max);
         int [] nouaLista= removeElement(max,x);
         for(int value : nouaLista) {
-            System.out.print(value);
+            System.out.print(value + " ");
         }
 
     }
