@@ -13,6 +13,6 @@ public class TestfibonacciSequence {
         int actualResult = x.fibonacci(0);
         Assert.assertEquals(expectedResult,actualResult);
 
-        System.out.println(x.fibonacci(4));
+        System.out.println(x.fibonacci(20));
     }
 }
