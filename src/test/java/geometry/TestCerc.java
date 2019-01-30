@@ -10,7 +10,7 @@ public class TestCerc {
 
         Cerc x = new Cerc(3);
         System.out.println(x.CalculeazaAria());
-        Assert.assertEquals(9 * Math.PI, x.CalculeazaAria(), Math.PI);
+        Assert.assertEquals(28.274, x.CalculeazaAria(), 3);
     }
 
     @Test
@@ -18,6 +18,6 @@ public class TestCerc {
 
         Cerc x = new Cerc(3);
         System.out.println(x.CalculeazaCircumferinta());
-        Assert.assertEquals((2 * Math.PI) * 3, x.CalculeazaCircumferinta(), Math.PI);
+        Assert.assertEquals((2 * Math.PI) * 3, x.CalculeazaCircumferinta(), 3);
     }
 }
